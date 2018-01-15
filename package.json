@@ -1,0 +1,18 @@
+{
+  "name": "tes_fungsi",
+  "version": "1.0.0",
+  "description": "sebuah tes fungsi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mocha-junit-reporter || true",
+    "coverage": "istanbul cover _mocha test/index.test.js -x *.test.js"
+  },
+  "author": "Ahmad Krisnanda",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.1.0",
+    "mocha-junit-reporter": "^1.15.0"
+  }
+}
